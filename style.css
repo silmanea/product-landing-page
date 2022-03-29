@@ -1,0 +1,122 @@
+header {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 0px 0px 0px 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .nav-link {
+    display: inline-block;
+    margin-left: 40px;
+    text-decoration: none;
+    font-family: Arial, Calibri;
+    font-size: 18px;
+    color: black !important;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+  }
+  
+  .flex-item {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0px 10px 0px 20px;
+    font-size: 40px;
+    font-family: Arial, Calibri;
+  }
+  
+  .flex-item-2 {
+    width: 100%;
+    margin: 0px 0px 0px 10px;
+  }
+  
+  .flex-container-2 {
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Calibri;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0px 100px 0px;
+  }
+  
+  .flex-item-3,
+  .flex-item-4,
+  .flex-item-5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    margin: 0px 30px 0px 20px;
+  }
+  
+  body {
+    background-color: rgb(230, 250, 255);
+  }
+  
+  footer {
+    text-align: center;
+    background-color: rgb(0, 122, 153);
+    padding-bottom: 30px;
+  }
+  #form-text {
+    font-family: Arial, Calibri;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 60px 20px;
+  }
+  
+  .email-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  .email-box i {
+    background-color: #00ccff;
+    width: 40px;
+    line-height: 40px;
+  }
+  
+  .email,
+  .submit {
+    border: none;
+    outline: none;
+  }
+  
+  .email {
+    width: 0px;
+    padding: 0px;
+    transition: 0.6s;
+  }
+  
+  .submit {
+    background-color: #00ccff;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .email-box:hover > .email,
+  .submit:focus {
+    width: 260px;
+    padding: 0 10px;
+  }
+  
